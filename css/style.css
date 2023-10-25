@@ -1,0 +1,1101 @@
+
+html{
+    background-color: #121212;
+    box-sizing: border-box;
+
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+
+.wrapper {
+
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.header_wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_link{
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header_item{
+
+    margin-right: 50px;
+}
+
+.header_item:last-child {
+
+    margin-right: 0;
+
+}
+
+
+.header_link:hover{
+    transition: 0.5s;
+    color: #5865F2;
+
+}
+
+
+/* ИНТРО */
+
+.intro {
+    height: 100vh;
+    background: url('../img/background.png') no-repeat center;
+    background-size: cover;
+    padding-top: 20vh;
+}
+
+.intro_title{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.intro_subtitle {
+
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 600px;
+
+}
+
+
+
+/* ВАНИЛА */
+
+
+.vanilla_server {
+
+    padding-top: 60px;
+
+}
+
+.vanilla_intro {
+
+    color: #5865F2;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+
+.vanilla_into_vydel {
+
+
+    color: #ffffff;
+    text-decoration: none;
+    
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+.vanilla_description {
+
+
+    padding-bottom: 200px;
+
+
+}
+
+.vanilla_description_text {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    max-width: 600px;
+
+    margin-top: 50px;
+
+
+
+}
+
+
+.vanilla_description_block {
+
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background: #1f1f1f;
+    margin-left: 40px;
+
+    padding: 20px;
+
+    float: right;
+    margin-top: -320px;
+
+
+}
+
+.vdb_text {
+
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.vdb_desc {
+
+    color: #5865F2;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+    text-align: left;
+
+    padding-top: 10px;
+
+}
+
+
+.vdb_desc_dec {
+
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    max-width: 600px;
+    text-align: left;
+
+    padding-top: 10px;
+
+}
+
+
+.vanilla_join {
+    
+    margin-top: 30px;
+
+    width: 400px;
+    height: 50px;
+
+    border-radius: 15px;
+    background: #5865F2;
+    color: #FFF;
+    border: 2px;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    max-width: 600px;
+    transition: 0.5s;
+
+}
+
+
+.vanilla_join:hover {
+    
+    transition: 0.5s;
+    border-radius: 15px;
+    background: #5865F2cc;
+    color: #FFF;
+    border: 2px;
+
+}
+
+
+.vanilla_join_btn {
+
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    max-width: 600px;
+    
+    text-decoration: none;
+
+}
+
+
+/* LOGIN */
+
+
+.auth_box {
+
+    margin: 100px auto;
+
+    width: 710px;
+    height: 500px;
+    background-color: #121212;
+
+    border: solid 2px;
+    border-radius: 40px;
+    
+}
+
+
+.auth_text {
+    margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.auth_form {
+
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-bottom: 25px;
+
+
+}
+
+
+.username_input, .password_input, .newPassword_input {
+
+    width: 480px;
+    height: 65px;
+    background: #1e1e1e;
+    border-radius: 15px;
+
+}
+
+.username_field, .password_field, .newPassword_field  {
+
+    margin-top: 10px;
+    margin-left: 15px;
+
+    width: 450px;
+    height: 45px;
+    
+    background: #1e1e1e;
+    border: 0;
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.password_input, .newPassword_input {
+    margin-top: 20px;
+}
+
+.auth_button {
+
+    width: 480px;
+    height: 55px;
+    border-radius: 15px;
+
+
+    background: #5865F2;
+    border: 0;
+
+    margin-top: 30px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+
+}
+
+.auth_button:hover {
+
+    background-color: #5865F2cc;
+    transition: 0.5s;
+
+}
+
+.not_registred {
+
+    
+    margin-left: 264px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+
+.not_registred:hover {
+
+    transition: 0.5s;
+    color: #5865F2;
+
+}
+
+
+/* REGISTER */
+
+
+.already_registred {
+
+    
+    margin-left: 235px;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+
+.already_registred:hover {
+
+    transition: 0.5s;
+    color: #5865F2;
+
+}
+
+
+.reg_box {
+
+    margin: 100px auto;
+
+    width: 710px;
+    height: 550px;
+    background-color: #121212;
+
+    border: solid 2px;
+    border-radius: 40px;
+    
+}
+
+.accept_rules {
+
+    padding-top: 20px;
+
+}
+
+.checkbox_text {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+
+    margin-left: 15px;
+
+
+
+}
+
+.checkbox {
+    width: 23px;
+    height: 23px;
+
+}
+
+.rule_link {
+
+
+    color: #5865F2;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+
+}
+
+
+.checkbox:checked {
+
+    accent-color: #5865F2;
+
+}
+
+
+
+/* ЛАУНЧЕР */
+
+
+.launcher {
+    padding-top: 80px;
+}
+
+.pre_launcher_intro {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.launcher_intro {
+
+    color: #FFF;
+    padding-top: 20px;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    max-width: 780px;
+
+}
+
+.download_buttons {
+
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.windows_download {
+
+    width: 400px;
+    height: 85px;
+    border-radius: 20px;
+    background: #5865F2;
+    padding-top: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+
+
+
+}
+
+.windows_text {
+
+    color: #FFF;
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.windows_icon {
+
+    width: 60px;
+
+}
+
+
+.other_download {
+
+    width: 400px;
+    height: 85px;
+    border-radius: 20px;
+    background: #1e1e1e;
+    padding-top: 12px;
+    padding-left: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+
+
+}
+
+.other_text {
+
+    color: #FFF;
+
+    text-align: center;
+    vertical-align: middle;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.other_icon {
+
+    width: 55px;
+
+}
+
+
+.windows_download:hover {
+
+    background-color: #5865F2cc;
+    transition: 0.5s;
+
+}
+
+.other_download:hover {
+
+    background-color: #1e1e1ecc;
+    transition: 0.5s;
+
+}
+
+.java_download {
+
+    padding-top: 50px;
+
+}
+
+.java_warn {
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.java_info {
+
+    color: #FFF;
+    padding-top: 10px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding-bottom: 30px;
+
+}
+
+.java_link {
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+.java_link:hover {
+    color: #57F287;
+    transition: 0.5s;
+}
+
+
+/* MOD SERVER */
+
+
+/* .mod_server {
+
+
+    padding-top: 160px;
+
+}
+
+
+.mod_intro {
+
+    color: #57F287;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+
+.vanilla_into_vydel {
+
+
+    color: #ffffff73;
+    text-decoration: none;
+    
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+.vanilla_description {
+
+    padding-top:55px;
+
+
+}
+
+.vanilla_description_text {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    max-width: 600px;
+
+    margin-top: 110px;
+
+
+}
+
+
+.mod_description_block {
+
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background: #1f1f1f;
+    margin-left: 40px;
+
+    padding: 20px;
+
+    float: right;
+    margin-top: -150px;
+
+
+}
+
+.vdb_text {
+
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+.mdb_desc {
+
+    color: #57F287;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+    text-align: left;
+
+    padding-top: 10px;
+
+}
+
+
+.vdb_desc_dec {
+
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    max-width: 600px;
+    text-align: left;
+
+    padding-top: 10px;
+
+}
+
+
+.vanilla_join {
+    
+    margin-top: 30px;
+
+    width: 400px;
+    height: 50px;
+
+    border-radius: 15px;
+    background: #5865F2;
+    color: #FFF;
+    border: 2px;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    max-width: 600px;
+    transition: 0.5s;
+
+}
+
+
+.vanilla_join:hover {
+    
+    transition: 0.5s;
+    border-radius: 15px;
+    background: #5865F2cc;
+    color: #FFF;
+    border: 2px;
+
+}
+
+
+.vanilla_join_btn {
+
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    max-width: 600px;
+    
+    text-decoration: none;
+
+} */
+
+
+
+/* FOOTER */
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #000;
+
+    
+}
+
+
+.footer_copyright {
+
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    padding-top: 25px;
+
+}
+
+
+.org_copyright {
+
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+
+/* END */
+
+.end_info {
+
+    margin-bottom: 100px;
+
+}
+
+.end_title {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.end_subtitle {
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+.end_text {
+
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 800px;
+
+}
+
+
+.end_ps {
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 800px;
+}
+
+
+
+.end_buttons {
+
+    margin-top: 40px;
+    display: flex;
+
+}
+
+
+.vk_end_button {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background: #4C75A3;
+    padding: 15px 15px;
+    margin-right: 50px;
+
+}
+
+.end_btn_pic {
+
+    height: 50px;
+
+}
+
+.tg_end_button {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background: #2AABEE;
+    padding: 15px 15px;
+    margin-right: 50px;
+
+}
+
+.dc_end_button {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background: #5865F2;
+    padding: 20px 15px;
+    margin-right: 50px;
+
+}
+
+.dcend_btn_pic {
+
+    height: 38px;
+    width: 50px;
+
+}
+
+
+
+.support_end_button {
+
+    height: 80px;
+    width: 310px;
+    border-radius: 25px;
+    background: #1e1e1e;
+    padding: 20px 20px;
+    
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.support_text {
+
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+/* RULES */
+
+
+
+.rules {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.rules_title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.rules_punkt {
+
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.rules_podpunkt {
+
+    margin-top: 10px;
+    color: #ffffffcc;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+
+}
