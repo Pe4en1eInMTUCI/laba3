@@ -1,7 +1,30 @@
+@font-face {
+    font-family: Gilroy;
+    font-weight: 900;
+    src: url('../fonts/Gilroy-Black.ttf');
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: 700;
+    src: url('../fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+    font-family: Gilroy;
+    font-weight: 500;
+    src: url('../fonts/Gilroy-SemiBold.ttf');
+}
+
+
+
 
 html{
     background-color: #121212;
     box-sizing: border-box;
+
+    font-family: Gilroy;
+    color: #FFF;
 
 
 }
@@ -71,3 +94,169 @@ html{
 }
 
 
+.intro {
+    margin-top: 30vh;
+    height: 55vh;
+}
+
+.intro_title {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.intro_subtitle {
+    margin-top: 10px;
+    font-size: 38px;
+
+}
+
+.intro_vydel {
+    color: #5865F2;
+}
+
+.social_title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 42px;
+
+}
+.social_links {
+    display: flex;
+}
+
+.github{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    background: #333;
+    padding: 16px 18px;
+    margin-right: 30px;
+}
+
+.telegram{
+    border-radius: 25px;
+    background: #2AABEE;
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    padding: 15px 15px;
+}
+
+.vk{
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    background: #4C75A3;
+    padding: 15px 15px;
+    margin-right: 30px;
+}
+/* 
+.goto_projects {
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    background: #1f1f1f;
+    padding: 30px 10px;
+} */
+
+/* ABOUT */
+
+.about {
+
+    margin-top: 100px;
+
+}
+
+.about_title {
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.about_subtitle {
+
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
+
+    max-width: 600px;
+
+
+}
+
+/* STUDY PROJECTS */
+
+
+.study_projects {
+
+    margin-top: 80px;
+
+}
+
+.sp_title {
+    font-weight: 900;
+    font-size: 42px;
+
+}
+
+.sp_subtitle {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 24px;
+
+    max-width: 700px;
+}
+
+.sp_project_btns{
+
+    margin-top: 30px;
+    display: flex;
+
+    color: #FFF;
+
+}
+
+.project_btn_1 {
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    background: #5865F2;
+    margin-right: 35px;
+
+    padding-top: 130px;
+    padding-left: 133px;
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.project_btn_2 {
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    background: #44D09E;
+    margin-right: 35px;
+
+    padding-top: 130px;
+    padding-left: 133px;
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.project_btn_3 {
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    background: #2AABEE;
+    margin-right: 35px;
+
+    padding-top: 130px;
+    padding-left: 133px;
+    font-size: 36px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFF;
+}
