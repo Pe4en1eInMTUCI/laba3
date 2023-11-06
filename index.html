@@ -17,13 +17,6 @@
     
 </head>
 <body>
-
-    <header class="header">
-        <div class="wrapper">
-            
-        </div>
-    </header>
-
     <main class="main">
 
         <section class="intro">
@@ -36,13 +29,13 @@
                     Social
                 </h2>
                 <div class="social_links">
-                    <a href="/" class="github">
+                    <a href="https://github.com/Pe4en1e" class="github">
                         <img src="./img/github.svg" alt="">
                     </a>
-                    <a href="/" class="telegram">
+                    <a href="https://t.me/pe4en1e" class="telegram">
                         <img src="./img/tg.svg" alt="">
                     </a>
-                    <a href="/" class="vk">
+                    <a href="https://vk.com/pe4en1e" class="vk">
                         <img src="./img/vk.svg" alt="">
                     </a>
                 </div>
@@ -59,28 +52,65 @@
         <section class="study_projects">
             <div class="wrapper">
                 <h1 class="sp_title">📚 Проекты связанные с учебой</h1>
-                <h3 class="sp_subtitle">Здесь собраны все лабараторные, которые только были, есть и будут. Короче, вообще все, скопится за время учебы</h3>
+                <h3 class="sp_subtitle">Здесь собраны все лабараторные, которые только были. Короче, вообще все, что скопится за время учебы</h3>
 
 
                 <div class="sp_project_btns">
-                    <button class="project_btn_1">
+                    <button class="project_btn_1" onclick="displayCard1()">
                         <text>Лаба №1</text>
                     </button>
-                    <a href="/" class="project_btn_2">
+                    <button class="project_btn_2" onclick="displayCard2()">
                         <text>Лаба №2</text>
-                    </a>
-                    <a href="/" class="project_btn_3">
+                    </button>
+                    <button class="project_btn_3" onclick="displayCard3()">
                         <text>Лаба №3</text>
-                    </a>
+                    </button>
                 </div>
 
             </div>
         </section>
 
-        <section class="project_card">
+        <section class="project_card" id="blur">
             <div class="wrapper">
-                <div class="project_block">
-
+                <div class="project_block1" id="card1">
+                    <button class="closeBtn" onclick="hideCard1()">
+                        <img src="./img/close.svg">
+                    </button>
+                    <h6 class="labanum">Лабораторная #1</h6>
+                    <h1 class="labatitle1">Вычисление дискриминанта</h1>
+                    <h1 class="labapresub">Суть работы:</h1>
+                    <h3 class="labasub">На вход программе подаются 3 коэффициента квадратного
+                        уравнения. Программа должна находить корни квадратного уравнения.</h3>
+                    <button onclick="openGit1()" class="checkOnGit">
+                        <img src="./img/github.svg" class="inBtnImg">
+                        Код на GitHub
+                    </button>
+                </div>
+                <div class="project_block2" id="card2">
+                    <button class="closeBtn" onclick="hideCard2()">
+                        <img src="./img/close.svg">
+                    </button>
+                    <h6 class="labanum">Лабораторная #2</h6>
+                    <h1 class="labatitle2">Wikipedia API</h1>
+                    <h1 class="labapresub">Суть работы:</h1>
+                    <h3 class="labasub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ipsum quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ipsum quis</h3>
+                    <button class="checkOnGit" onclick="openGit2()">
+                        <img src="./img/github.svg" class="inBtnImg">
+                        Код на GitHub
+                    </button>
+                </div>
+                <div class="project_block3" id="card3">
+                    <button class="closeBtn" onclick="hideCard3()">
+                        <img src="./img/close.svg">
+                    </button>
+                    <h6 class="labanum">Лабораторная #3</h6>
+                    <h1 class="labatitle3">Этот "замечательный" сайт</h1>
+                    <h1 class="labapresub">Суть работы:</h1>
+                    <h3 class="labasub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ipsum quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat ipsum quis</h3>
+                    <button onclick="openGit3()" class="checkOnGit">
+                        <img src="./img/github.svg" class="inBtnImg">
+                        Код на GitHub
+                    </button>
                 </div>
             </div>
         </section>
@@ -93,6 +123,8 @@
             </div>
         </footer>
 
+
+        <script src="./js/script.js"></script>
 
     </main>
 </body>
