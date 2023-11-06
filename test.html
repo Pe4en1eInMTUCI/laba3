@@ -16,7 +16,23 @@
 </head>
 <body>
 
+    <button class="test" onclick="testFunc()">
+        click me
+    </button>
     
+    <div class="testtext" id="123">
+        hello world
+    </div>
+
+    <script>
+        function testFunc() {
+            if (document.getElementById('123').style.display === "none") {
+                document.getElementById('123').style.display = "block"
+            } else {
+                document.getElementById('123').style.display = "none"
+            }
+        }
+    </script>
 
 
 </body>
