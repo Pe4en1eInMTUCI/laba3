@@ -47,13 +47,13 @@ function hideCard3() {
 }
 
 function openGit1() {
-    window.open('https://github.com/Pe4en1e', '_blank')
+    window.open('https://github.com/Pe4en1eInMTUCI/laba1', '_blank')
 }
 
 function openGit2() {
-    window.open('https://github.com/Pe4en1e', '_blank')
+    window.open('https://github.com/Pe4en1eInMTUCI/laba2', '_blank')
 }
 
 function openGit3() {
-    window.open('https://github.com/Pe4en1e', '_blank')
+    window.open('https://github.com/Pe4en1eInMTUCI/laba3', '_blank')
 }
