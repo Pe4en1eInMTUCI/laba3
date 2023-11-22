@@ -57,3 +57,46 @@ function openGit2() {
 function openGit3() {
     window.open('https://github.com/Pe4en1eInMTUCI/laba3', '_blank')
 }
+
+function displayCard4() {
+    blurShow();
+    document.getElementById('card4').style.display = "block";
+}
+
+function hideCard4() {
+    blurHide();
+    document.getElementById('card4').style.display = "none";
+}
+
+function displayCard5() {
+    blurShow();
+    document.getElementById('card5').style.display = "block";
+}
+
+function hideCard5() {
+    blurHide();
+    document.getElementById('card5').style.display = "none";
+}
+
+function displayCard6() {
+    blurShow();
+    document.getElementById('card6').style.display = "block";
+}
+
+function hideCard6() {
+    blurHide();
+    document.getElementById('card6').style.display = "none";
+}
+
+
+function openGit4() {
+    window.open('https://github.com/Pe4en1eInMTUCI/laba4', '_blank')
+}
+
+function openGit5() {
+    window.open('https://github.com/Pe4en1eInMTUCI/laba5', '_blank')
+}
+
+function openGit6() {
+    window.open('https://github.com/Pe4en1eInMTUCI/laba6', '_blank')
+}
